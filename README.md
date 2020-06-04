@@ -23,7 +23,7 @@ $ docker-compose up -d
 To stop and remove all containers deployed with an recipe, you only need to run:
 ```
 $ docker-compose down
-``
+```
 
 ## Contribute
 
