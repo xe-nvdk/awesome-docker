@@ -9,7 +9,8 @@ If you're contributing, please, don't forget to modify this table and add info a
 
 | Applications         | Description | Author |
 |----------------------|-------------|:------:|
-| [InfluxDB, Grafana and Telegraf] (telegraf-influxdb-grafana/) | This recipe enable you to run three containers: InfluxDB 1.8, Telegraf and Grafana 7.0 | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |  
+| [InfluxDB, Grafana and Telegraf](telegraf-influxdb-grafana/) | This recipe enable you to run three containers: InfluxDB 1.8, Telegraf and Grafana 7.0 | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |  
+
 ## How start with Docker Compose.
 Make sure you have docker and docker-compose installed
 
