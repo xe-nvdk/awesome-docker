@@ -14,7 +14,7 @@ If you're contributing, please, don't forget to modify this table and add info a
 ## How start with Docker Compose.
 Make sure you have docker and docker-compose installed
 
-## How run a recipe
+## How to run a recipe
 Just download one of this recipes and execute the following command:
 
 ```
