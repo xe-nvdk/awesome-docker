@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+  influxdb:
+    container_name: influxdb
+    image: quay.io/influxdb/influxdb:2.0.0-beta
+    volumes:
+      - ./influxdb:/root/.influxdbv2/
+    ports:
+      - 9999:9999
+    networks:
+      - "viernes"
+
+networks:
+  viernes:
+    external: true
+
