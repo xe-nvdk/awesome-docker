@@ -10,7 +10,7 @@ services:
       - --providers.docker
       - --api
       - --api.dashboard=true
-      - --experimental.pilot.token=your-token https://pilot.traefik.io/
+      - --experimental.pilot.token=your-token # Get you token from https://pilot.traefik.io/
       - --log.level=DEBUG
       - --certificatesresolvers.leresolver.acme.httpchallenge=true
       - --certificatesresolvers.leresolver.acme.email=your-email
