@@ -9,9 +9,10 @@ If you're contributing, please, don't forget to modify this table and add info a
 
 | Applications         | Description | Author |
 |----------------------|-------------|:------:|
-| [InfluxDB, Grafana and Telegraf](telegraf-influxdb-grafana/) | This recipe enable you to run three containers: InfluxDB 1.8, Telegraf and Grafana 7.0 | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |  
-| [Traefik, Nextcloud and Postgress](traefik-nextcloud-psql) | This recipe enable you to run NextCloud and Postgress as backend with Traefik support https and dashboard | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
-| [InfluxDB v2 Beta](influxdbv2) | This sample is a very simple docker-compose file to run InfluxDB v2 Beta | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
+| [Calibre Web](calibre-web/) | This recipe enable you to run Calibre Web for storing, organizing and send eBooks to Kindle devices and others. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |  
+| [InfluxDB, Grafana and Telegraf](telegraf-influxdb-grafana/) | This recipe enable you to run three containers: InfluxDB 1.8, Telegraf and Grafana 7.0. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |  
+| [InfluxDB v2 Beta](influxdbv2) | This sample is a very simple docker-compose file to run InfluxDB v2 Beta. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
+| [Traefik, Nextcloud and Postgress](traefik-nextcloud-psql) | This recipe enable you to run NextCloud and Postgress as backend with Traefik support https and dashboard. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
 
 ## How start with Docker Compose.
 Make sure you have docker and docker-compose installed
