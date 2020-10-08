@@ -13,6 +13,10 @@ If you're contributing, please, don't forget to modify this table and add info a
 | [InfluxDB, Grafana and Telegraf](telegraf-influxdb-grafana/) | This recipe enable you to run three containers: InfluxDB 1.8, Telegraf and Grafana 7.0. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |  
 | [InfluxDB v2 Beta](influxdbv2) | This sample is a very simple docker-compose file to run InfluxDB v2 Beta. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
 | [Traefik, Nextcloud and Postgress](traefik-nextcloud-psql) | This recipe enable you to run NextCloud and Postgress as backend with Traefik support https and dashboard. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
+| [Traefik Pilot](traefik-pilot) | Sample recipe to run Traefik with Pilot feature. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
+| [Traefik Portainer CE 2.0](traefik-portainer2.0) | Portainer CE 2.0 behind Traefik as Reverse Proxy | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
+| [Traefik Custom SSL](traefik-custom-ssl) | This recipe and configuration helps to deploy Traefik with custom ssl certificates. | [Ignacio Van Droogenbroeck](https://github.com/xe-nvdk) |
+
 
 ## How start with Docker Compose.
 Make sure you have docker and docker-compose installed

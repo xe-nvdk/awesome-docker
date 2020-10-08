@@ -1,0 +1,31 @@
+services:
+  traefik:
+    container_name: traefik
+    image: "traefik:v2.2"
+    command:
+      - --entrypoints.web.address=:80
+      - --entrypoints.websecure.address=:443
+      - --providers.docker
+      - --api
+      - --log.level=ERROR
+      - --providers.file.directory=/configuration/
+      - --providers.file.watch=true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "/mnt/c/Users/Nacho/docker/traefik-ownssl/configuration/:/configuration/"
+    labels:
+      - "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
+      - "traefik.http.routers.http-catchall.entrypoints=web"
+      - "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+  
+  hello_world:
+    image: tutum/hello-world
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.hello.rule=Host(`hello.cduser.com`)"
+      - "traefik.http.routers.hello.tls=true"
+      - "traefik.http.routers.hello.entrypoints=websecure"
