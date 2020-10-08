@@ -1,0 +1,3 @@
+[[tls.certificates]] #nuestro certificado
+   certFile = "/configuration/hello.cduser.com.cert" 
+   keyFile = "/configuration/hello.cduser.com.key"
