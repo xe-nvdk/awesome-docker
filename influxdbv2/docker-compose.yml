@@ -3,11 +3,11 @@ version: "3.3"
 services:
   influxdb:
     container_name: influxdb
-    image: quay.io/influxdb/influxdb:2.0.0-beta
+    image: quay.io/influxdb/influxdb:2.0.6
     volumes:
       - ./influxdb:/root/.influxdbv2/
     ports:
-      - 9999:9999
+      - 8086:8086
     networks:
       - "viernes"
 
