@@ -1,13 +1,11 @@
 <p align="center">
-  <img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/vertical-logo-monochromatic.png" width="128" height="128"/>
+  <img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/vertical-logo-monochromatic.png" width="128" height="160"/>
 </p>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B34N5TU)
 
 # awesome-docker
 > A curated list of compose samples to run in Docke instances.
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B34N5TU)
 
 These samples provide a starting point for how to integrate different services using in Docker Compose. You're invited to contribute.
 
