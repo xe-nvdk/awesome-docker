@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" width="128" height="128"/>
+  <img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" />
 </p>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B34N5TU)
